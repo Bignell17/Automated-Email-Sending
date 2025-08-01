@@ -60,7 +60,7 @@ print(email_list)
 
 # COMMAND ----------
 
-new_items = ['jordan.bignell@correla.com', 'rachel.fisken@correla.com', 'daniel.nolan@correla.com']
+new_items = ['Email_101@address.com', 'Email_102@address.com', 'Email_103@address.com']
 
 for item in new_items:
     if item not in email_list:
