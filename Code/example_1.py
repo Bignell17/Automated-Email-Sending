@@ -1,6 +1,6 @@
 %run /Workspace/Shared/BI/pipelines/adhoc/email_api/automated_email_sending
 
-# COMMAND
+# COMMAND ----------
 
 
 # Get the current date
@@ -13,7 +13,7 @@ month_name = current_date.strftime('%B')
 print(month_name)
 
 
-# COMMAND
+# COMMAND ----------
 
 
 message = f"""
@@ -30,7 +30,7 @@ Data Analytics Team
 display(HTML(message))
 
 
-# COMMAND
+# COMMAND ----------
 
 
 send_email_with_attachments(
