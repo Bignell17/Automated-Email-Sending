@@ -21,7 +21,7 @@ previous_month = current_date - relativedelta(months=1)
 previous_month_name = previous_month.strftime('%B')
 print(previous_month_name)
 
-power_bi_link = "https://app.powerbi.com/groups/dc0cdadb-2b1f-48ef-8415-e12d13ae9111/reports/9b50ad85-171c-4be5-b947-fd4641aff90b/e1e45763ad732445a2d6?experience=power-bi"
+power_bi_link = "https://app.powerbi.com/groups/{GROUP_ID}/reports/{REPORT_ID}"
 
 # COMMAND ----------
 
@@ -40,9 +40,9 @@ This report enables you to;<br>
 
 For any queries, please reach out to your Finance Business Partner:<br>
 <ul>
-    <li><b>Managed Services:</b> Hannah Stait</li>
-    <li><b>SaaS:</b> Connor Taylor</li>
-    <li><b>Corporate Overheads:</b> Nick Stace</li>
+    <li><b>Managed Services:</b> Name 1</li>
+    <li><b>SaaS:</b> Name 2</li>
+    <li><b>Corporate Overheads:</b> Name 3</li>
 </ul><br>
 
 Thank you for using the Power BI Cost Reporting tool to manage and track financial performance. Please ensure you review your area’s financials and take any necessary actions.<br>
